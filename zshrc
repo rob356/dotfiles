@@ -73,4 +73,5 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/core_perl:/opt/and
 # ssh
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 
-unalias sl
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
